@@ -1,0 +1,9 @@
+streamlit>=1.56
+numpy
+pandas
+scipy
+matplotlib
+joblib
+# Must match the version the models were trained with (1.6.1 for the original fecg_model.joblib).
+# scripts/train_models.py --pin-requirements and the last notebook cell set this automatically.
+scikit-learn==1.6.1
