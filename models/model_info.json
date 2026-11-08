@@ -1,0 +1,34 @@
+{
+  "sklearn": "1.6.1",
+  "numpy": "2.4.6",
+  "python": "3.13.18",
+  "fs": 1000,
+  "recordings": [
+    "r01",
+    "r04",
+    "r07",
+    "r08",
+    "r10"
+  ],
+  "models": [
+    "extra_trees",
+    "gradient_boosting",
+    "svm_rbf",
+    "logistic_regression",
+    "knn",
+    "decision_tree",
+    "naive_bayes",
+    "mlp"
+  ],
+  "thresholds": {
+    "random_forest": 0.4,
+    "extra_trees": 0.55,
+    "gradient_boosting": 0.55,
+    "svm_rbf": 0.65,
+    "logistic_regression": 0.2,
+    "knn": 0.4,
+    "decision_tree": 0.3,
+    "naive_bayes": 0.45,
+    "mlp": 0.3
+  }
+}
